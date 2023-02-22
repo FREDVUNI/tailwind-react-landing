@@ -3,6 +3,7 @@ import Logo from '../assets/logo.svg'
 import lock from '../assets/lock.svg'
 import Hamburger from '../assets/hamburgerMenu.svg'
 import Close from '../assets/close.svg'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
     const [toggle,setToggle] = useState(false)
@@ -31,12 +32,16 @@ const Navbar = () => {
                 </button>
                 <button className='px-8 py-3 bg-[#208446]'>Sign up for free</button>
             </div>
-            <div className="md:hidden cursor-pointer" onClick={handleToggle}>
+            <motion.div whileTap={{ scale:0.6 }} className="md:hidden cursor-pointer" onClick={handleToggle}>
                 <img src={toggle ? Close : Hamburger} alt="hamburger" />
-            </div>
+            </motion.div>
         </div>
         <div>
-            <ul className={toggle ? 'absolute z-10 p-4 bg-white w-full px-8 md:hidden': 'hidden'}>
+            <motion.ul
+                initial={{ opacity:0,x:200 }}
+                animate={{ opacity:1,x:0 }}
+                exit={{ opacity:0,x:200 }}
+             className={toggle ? 'absolute z-10 p-4 bg-white w-full px-8 md:hidden': 'hidden'}>
                 <li className='p-4 hover:bg-gray-50'>Home</li>
                 <li className='p-4 hover:bg-gray-50'>About</li>
                 <li className='p-4 hover:bg-gray-50'>Support</li>
@@ -49,7 +54,7 @@ const Navbar = () => {
                     </button>
                     <button className='px-8 py-5 bg-[#208446]'>Sign up for free</button>
                 </div>
-            </ul>
+            </motion.ul>
         </div>
     </div>
   )

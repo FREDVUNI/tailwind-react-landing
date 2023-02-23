@@ -12,3 +12,7 @@ body,
     width: 100%;
     font-family: "Poppins",sans-serif;
 }
+
+.input-box-shadow{
+    filter: drop-shadow(-4px -4px 44px rgba(0,0,0,0.08));
+}

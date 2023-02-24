@@ -13,7 +13,7 @@ const HeroSection = () => {
                 </h1>
                 <p className='py-2 text-lg text-gray-900'>Various versions have evolved over the years</p>
                 <form className='input-box-shadow flex justify-content-between items-center bg-transparent gap-2'>
-                    <input type="text" className="bg-white border p-3 input-box-shadow" placeholder='search for courses here'/>
+                    <input type="text" className="my-2 w-full px-5 py-3 border border-solid border-neutral-300 bg-transparent bg-clip-padding text-base font-normal text-neutral-700 outline-none placeholder:text-neutral-500" placeholder='search for courses here'/>
                     <button>
                         <AiOutlineSearch
                             size={30}

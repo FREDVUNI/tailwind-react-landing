@@ -1,4 +1,3 @@
-import Flutter from '../assets/blog-1.png'
 export const courses = [
     {
       id: 1,
@@ -6,7 +5,7 @@ export const courses = [
       category:'Flutter',
       rating:5,
       price: '$59.99',
-      linkImg:Flutter
+      linkImg:'https://www.filepicker.io/api/file/sXz6u6kMQzK9uXkCwtPv'
     },
     {
       id: 2,

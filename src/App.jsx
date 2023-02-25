@@ -1,6 +1,5 @@
 import React from 'react'
-import { HeroSection, Navbar,Companies,Courses, Achievement,Categories,FeedBack } from './components'
-import CTA from './components/CTA'
+import { HeroSection, Navbar,Companies,Courses, Achievement,Categories,FeedBack,CTA,Footer } from './components'
 
 function App() {
 
@@ -14,6 +13,7 @@ function App() {
         <Categories/>
         <FeedBack/>
         <CTA/>
+        <Footer/>
     </div>
   )
 }

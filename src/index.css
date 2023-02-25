@@ -16,3 +16,13 @@ body,
 .input-box-shadow{
     filter: drop-shadow(-4px -4px 44px rgba(0,0,0,0.08));
 }
+.slick-prev:before,.slick-next:before{
+    color: black;
+    font-size: 40px;
+}
+.slick-next:before{
+    margin-left: -25px;
+}
+.slick-prev{
+    z-index: 9999;
+}

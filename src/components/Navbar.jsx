@@ -13,11 +13,11 @@ const Navbar = () => {
     }
 
   return (
-    <div className='w-full h-[96px] bg-white shadow-lg'>
-        <div className='md:max-w-[1080px] max-w-[400px] m-auto w-full h-full flex justify-between items-center'>
+    <div className='w-full h-[96px] bg-white shadow-sm'>
+        <div className='p-4 md:max-w-[1080px] max-w-[400px] m-auto w-full h-full flex justify-between items-center'>
             <img src={Logo} alt="logo" className='h-[25px] cursor-pointer'/>
             <div className="flex items-center">
-                <ul className='hidden md:flex gap-4'>
+                <ul className='hidden md:flex gap-4 '>
                     <li>Home</li>
                     <li>About</li>
                     <li>Support</li>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroSection, Navbar,Companies,Courses } from './components'
+import { HeroSection, Navbar,Companies,Courses, Achievement } from './components'
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
         <HeroSection/>
         <Companies/>
         <Courses/>
+        <Achievement/>
     </div>
   )
 }

@@ -8,8 +8,8 @@ const CategoryCard = ({icon,title}) => {
             {icon}
             <h1 className="text-lg font-semibold">{title}</h1>
         </div>
-        <div className="bg-[#1a9068] rounded-lg p-3 group-hover/edit">
-            <BsArrowUpRight size={30} style={{ color:'#208486' }} className='icon'/>
+        <div className="rounded-lg p-3 group-hover/edit">
+            <BsArrowUpRight size={30} style={{ color:'#1a9068' }} className='icon'/>
         </div>
     </div>
   )

@@ -5,7 +5,7 @@ import blog1 from '../assets/blog-1.png'
 
 const CourseCard = ({title,category,rating,price,linkImg}) => {
   return (
-    <div className='bg-white drop-shadow-md overflow-hidden'>
+    <div className='bg-white drop-shadow-md overflow-hidden my-4 mr-2'>
       <img src={blog1} alt="courses" className='h-40 w-full object-cover'/>
       <div className='p-5'>
           <h1 className='py-2 truncate'>{title}</h1>

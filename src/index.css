@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,5 +30,5 @@ body,
     z-index: 9999;
 }
 .category:hover,.icon{
-    fill: white;
+    fill: #1a9068;
 }

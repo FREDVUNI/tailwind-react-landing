@@ -3,7 +3,7 @@ import Rating from './Rating'
 import blog1 from '../assets/blog-1.png'
 
 
-const Card = ({title,category,rating,price,linkImg}) => {
+const CourseCard = ({title,category,rating,price,linkImg}) => {
   return (
     <div className='bg-white drop-shadow-md overflow-hidden'>
       <img src={blog1} alt="courses" className='h-40 w-full object-cover'/>
@@ -19,4 +19,4 @@ const Card = ({title,category,rating,price,linkImg}) => {
   )
 }
 
-export default Card
+export default CourseCard

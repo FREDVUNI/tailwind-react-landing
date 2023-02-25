@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+import CourseCard from './CourseCard'
 import { courses } from '../data/courses'
 import Slider from 'react-slick'
 
@@ -20,7 +20,7 @@ const Courses = () => {
         <div className='md:max-w-[1100px] m-auto grid md:grid-cols-3 max-w-[400px] gap-5'>
           {/* <Slider {...settings} className='px-5'> */}
             {courses && courses.map((course) =>(
-                <Card key={course.id} title={course.title} category={course.category} rating={course.rating} price={course.price} linkImg={course.linkImg}/>
+                <CourseCard key={course.id} title={course.title} category={course.category} rating={course.rating} price={course.price} linkImg={course.linkImg}/>
             ))}
             {/* </Slider> */}
         </div>

@@ -26,3 +26,6 @@ body,
 .slick-prev{
     z-index: 9999;
 }
+.category:hover,.icon{
+    fill: white;
+}

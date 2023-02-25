@@ -5,5 +5,6 @@ import Courses from "./Courses";
 import Achievement from "./Achievement";
 import Categories from "./Categories";
 import FeedBack from "./FeedBack";
+import CTA from "./CTA";
 
-export { Navbar,HeroSection,Companies,Courses,Achievement,Categories,FeedBack }
+export { Navbar,HeroSection,Companies,Courses,Achievement,Categories,FeedBack,CTA }

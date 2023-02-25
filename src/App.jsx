@@ -1,5 +1,6 @@
 import React from 'react'
 import { HeroSection, Navbar,Companies,Courses, Achievement,Categories,FeedBack } from './components'
+import CTA from './components/CTA'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Achievement/>
         <Categories/>
         <FeedBack/>
+        <CTA/>
     </div>
   )
 }

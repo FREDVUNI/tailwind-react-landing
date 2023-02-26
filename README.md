@@ -4,5 +4,4 @@ A react tailwind landing page for an education site with vite
 
 # screenshot
 
-![image](https://user-images.githubusercontent.com/41730664/221402689-aef131f7-fe73-442d-89c9-73050db4dd19.png)
-
+![image](https://user-images.githubusercontent.com/41730664/221402886-15b6a7d0-5e87-40d2-9946-3cc134248941.png)

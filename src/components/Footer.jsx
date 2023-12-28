@@ -48,7 +48,7 @@ const Footer = () => {
                     <h3 className="py-2 text-[#60737a]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officia .</h3>
                     <form className='input-box-shadow flex justify-content-between items-center bg-transparent gap-2'>
                     <input type="text" className="my-2 w-full px-5 py-3 border border-solid border-neutral-300 bg-transparent bg-clip-padding text-base font-normal text-neutral-700 outline-none placeholder:text-neutral-500" placeholder='Enter your email address here'/>
-                    <button className='max-[768px]:w-full my-2 w-full px-5 py-3 bg-[#208486] text-white font-bold'>Subscribe</button>
+                    <button className='my-2 px-5 py-3 bg-[#208446] text-white font-bold'>Subscribe</button>
                 </form>
                 </div>
             </div>

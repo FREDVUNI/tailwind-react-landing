@@ -64,4 +64,5 @@ Contributions are welcome! Please fork the repository, make changes, and create 
 
 # screenshot
 
-![image](https://user-images.githubusercontent.com/41730664/221402886-15b6a7d0-5e87-40d2-9946-3cc134248941.png)
+![image](https://github.com/FREDVUNI/tailwind-react-landing/assets/41730664/1ca496a4-0406-4bcf-9f60-3e076425d8a3)
+
